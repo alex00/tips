@@ -4,16 +4,17 @@ LINUX
 find
 --
 
-* Recherche
+### Recherche #
 
-`find . -name "._*"`
+    find . -name "._*"
+
 
 Changer utilisateur
 --
 
-`sudo -u postgres -i`
+    sudo -u postgres -i
 
 Changer mot de passe
 --
 
-`passwd`
+    passwd
