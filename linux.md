@@ -12,3 +12,8 @@ Changer utilisateur
 --
 
 `sudo -u postgres -i`
+
+Changer mot de passe
+--
+
+`passwd`
