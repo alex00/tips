@@ -6,4 +6,8 @@ find
 
 * Recherche
 
-`find . -name "._*"
+`find . -name "._*"`
+
+* Changer utilisateur
+
+`sudo -u postgres -i`
