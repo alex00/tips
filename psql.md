@@ -4,4 +4,4 @@ Commande psql
 Erreur "roles does not exist"
 -
 
-'sudo -u postgres -i'
+`sudo -u postgres -i`
