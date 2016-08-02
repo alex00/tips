@@ -11,3 +11,7 @@ Executer une tâche spécifique
 ### Et la supprimer #
 
     Delayed::Worker.new.run(Delayed::Job.last)
+    
+### Stoper delayed job (Rails 4) #
+
+    bundle exec bin/delayed_job stop
