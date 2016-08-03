@@ -133,6 +133,13 @@ rspec-rails
 
 https://github.com/rspec/rspec-rails
 
+capybara
+--
+
+Test sur l'interaction de l'utilisateur avec l'application
+
+https://github.com/jnicklas/capybara
+
 
 
 
