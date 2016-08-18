@@ -1,20 +1,30 @@
 LINUX
 ==
 
-find
+Rechercher un fichier à partir du contenu
 --
 
-### Recherche #
+    grep -rn "contenu_a_chercher" /var/www/
 
-    find . -name "._*"
+r: Recursif
+n: Donne le numero de ligne
 
 
-Changer utilisateur
+Rechercher un fichier à partir de son nom
+--
+
+    find /var/www -type d -name index.html
+
+type: type de données
+name: nom de l'élément recherché
+
+
+Changer d'utilisateur
 --
 
     sudo -u postgres -i
 
-Changer mot de passe
+Changer de mot de passe
 --
 
     passwd
