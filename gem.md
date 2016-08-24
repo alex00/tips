@@ -26,6 +26,13 @@ https://github.com/plataformatec/simple_form
 
 Formulaire
 
+ransack
+--
+
+https://github.com/activerecord-hackery/ransack
+
+https://github.com/plataformatec/simple_form
+
 delayed_job_active_record
 --
 
