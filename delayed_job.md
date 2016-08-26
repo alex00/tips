@@ -24,4 +24,4 @@ Executer une tâche spécifique
 
 Ajouter le fichier config/initializers/delayed_job.rb
 
-    Delayed::Worker.logger = Logger.new(File.join(Rails.root, 'log', 'dj.log'))
+    Delayed::Worker.logger = Logger.new(File.join(Rails.root, 'log', 'delayed_job.log'))
