@@ -19,3 +19,9 @@ Executer une tâche spécifique
 ### Stoper delayed job (Rails 4) #
 
     bundle exec bin/delayed_job stop
+
+### Créer un fichier de log
+
+Ajouter le fichier config/initializers/delayed_job.rb
+
+    Delayed::Worker.logger = Logger.new(File.join(Rails.root, 'log', 'dj.log'))
