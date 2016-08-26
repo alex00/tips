@@ -22,3 +22,22 @@ Foward agent (scp: /tmp/exemple/git-ssh.sh: Permission denied)
 Ajouter dans deploy.rb
  
     set :tmp_dir, "/home/<user>/tmp"
+
+Commande capistrano
+-
+
+Premier déploiement
+
+    cap <env> deploy:setup
+    
+Vérifier avant de déployer
+
+    cap <env> deploy:check
+
+Déployer
+
+    cap <env> deploy
+    
+Revenir à l'ancienne version
+
+    cap <env> deploy:rollback
