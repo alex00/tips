@@ -1,4 +1,4 @@
-Deploiement
+Déploiement
 ==
 
 Foward agent (Connection refused - connect(2) for http://exemple.com )
@@ -23,7 +23,7 @@ Ajouter dans deploy.rb
  
     set :tmp_dir, "/home/<user>/tmp"
 
-Commande capistrano
+Commandes capistrano
 -
 
 Premier déploiement
