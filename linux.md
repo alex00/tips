@@ -28,3 +28,8 @@ Changer de mot de passe
 --
 
     passwd
+
+Afficher les connections internet actives
+--
+
+    netstat -tupan
