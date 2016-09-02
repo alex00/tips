@@ -11,3 +11,9 @@ Remplacer dans config/developement.rb
   par
   
   `config.consider_all_requests_local = false`
+
+Arreter un process PID
+-
+
+    lsof -wni tcp:<port>
+    kill -9 <pid>
