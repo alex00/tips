@@ -18,7 +18,7 @@ Arreter un process PID
     lsof -wni tcp:<port>
     kill -9 <pid>
 
-Lancer rakedb:seed sur un fichier
+Lancer rake db:seed sur un fichier
 -
 
     rake db:seed:single SEED=<seed_name_without_.seeds.rb>
