@@ -41,5 +41,7 @@ Chmod
     chmod -R 740 <folder>
     
 "4" pour le droit de lecture (read)
+
 "2" pour le droit d'écriture (write )
+
 "1" pour le droit d'exécution (execute)
