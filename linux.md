@@ -9,6 +9,11 @@ Rechercher un fichier à partir du contenu
 r: Recursif
 n: Donne le numero de ligne
 
+Rechercher un fichier à partir de plusieur strings
+--
+
+    grep -e "contenu_1" -e "contenu_2" -e "contenu_3" /var/www/
+
 
 Rechercher un fichier à partir de son nom
 --
