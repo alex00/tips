@@ -73,6 +73,14 @@ Images, fichiers
 https://github.com/thoughtbot/paperclip
 https://github.com/minimagick/minimagick
 
+Note ! Pour recopier les images de paperclip
+  
+    wi# Stupid example method that just copies a user's profile pic to another user.
+    def copy_profile_picture(user_1, user_2)
+      user_2.picture = user_1.picture
+      user_2.save # Copied the picture and we're done!
+    end
+
 meta-tags
 --
 
