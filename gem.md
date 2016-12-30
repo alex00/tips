@@ -147,7 +147,19 @@ Test sur l'interaction de l'utilisateur avec l'application
 
 https://github.com/jnicklas/capybara
 
+amoeba
+--
 
+Clones des activerecords
 
+https://github.com/amoeba-rb/amoeba
+
+Note ! Pour recopier les images de paperclip
+  
+    wi# Stupid example method that just copies a user's profile pic to another user.
+    def copy_profile_picture(user_1, user_2)
+      user_2.picture = user_1.picture
+      user_2.save # Copied the picture and we're done!
+    end
 
 
