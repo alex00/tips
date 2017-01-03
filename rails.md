@@ -23,3 +23,13 @@ Lancer rake db:seed sur un fichier
 
     rake db:seed:single SEED=<seed_name_without_.seeds.rb>
     rake db:seed:single SEED=my_custom_seed
+
+Erreur rails console
+-
+
+    Library not loaded: /usr/local/opt/readline/lib/libreadline.6.dylib (LoadError)
+    
+Lancer la commande :
+
+    ln -s /usr/local/opt/readline/lib/libreadline.7.0.dylib /usr/local/opt/readline/lib/libreadline.6.dylib
+  
