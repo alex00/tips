@@ -22,5 +22,5 @@ Créer user
 Add user in program
 
 ```
-./bin/console fitnext:engine:userprogram:add
+ ./bin/console fitnext:engine:userprogram:add 1 1 --start-at=2017-01-06
 ```
