@@ -1,19 +1,32 @@
 Lancer Fitnext-ng
 -
 
-Afficher les commandes
+Lunch nginx_local
+
+```
+sudo nginx -c /usr/local/etc/nginx/nginx.conf 
+sudo nginx -c /usr/local/etc/nginx/nginx.conf -s stop
+``` 
+
+Start php with fpm
+
+```
+sudo /usr/local/opt/php70/sbin/php70-fpm start
+```
+
+Display commands
 
 ```
 ./bin/console
 ```
 
-Reseter la BDD
+Reset BDD
 
 ```
 ./bin/reset-database.sh 
 ```
 
-Créer user
+Create user
 
 ```
 ./bin/console fitnext:user:create --email=alex@test.fr --password=0000
