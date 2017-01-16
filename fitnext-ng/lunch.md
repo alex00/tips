@@ -1,6 +1,12 @@
 Lancer Fitnext-ng
 -
 
+Start mysql
+
+```
+mysql.server start
+```
+
 Lunch nginx_local
 
 ```
