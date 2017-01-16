@@ -1,6 +1,12 @@
 Lancer Fitnext-ng
 -
 
+Composer update
+
+```
+composer update
+```
+
 Start mysql
 
 ```
