@@ -32,6 +32,12 @@ Display commands
 ./bin/console
 ```
 
+Créer user et program 
+
+```
+./bin/console app:create-user-with-program alex@test.fr 0000 1
+```
+
 Reset BDD
 
 ```
@@ -53,7 +59,7 @@ Add user in program
 Generate program for a one user
 
 ```
-./bin/console fitnext:engine:user:plan 1 1 --period=2017-01-06_2017-01-14 -vvv
+./bin/console fitnext:engine:user:plan 1 1 --period=nextSevenDays -vvv
 ```
 
 Create an admin
