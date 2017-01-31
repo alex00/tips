@@ -170,4 +170,9 @@ Note ! Pour recopier les images de paperclip
       user_2.save # Copied the picture and we're done!
     end
 
+browserify-rails
+--
 
+Use npm
+
+https://github.com/browserify-rails/browserify-rails
