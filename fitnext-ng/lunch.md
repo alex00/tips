@@ -35,7 +35,7 @@ Display commands
 Créer user et program 
 
 ```
-./bin/console app:create-user-with-program alex@test.fr 0000 1
+./bin/console app:create-user-with-program alex@test.fr 0000 6
 ```
 
 Reset BDD
