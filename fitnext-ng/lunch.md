@@ -62,7 +62,7 @@ Generate program for a one user
 ./bin/console fitnext:engine:user:plan 1 1 --period=nextSevenDays -vvv
 ```
 
-Create an admin
+Create an 
 
 ```
 ./bin/console fitnext:user:role:add --email=alex@test.fr --role=ROLE_ADMIN
