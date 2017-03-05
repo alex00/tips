@@ -176,3 +176,11 @@ browserify-rails
 Use npm
 
 https://github.com/browserify-rails/browserify-rails
+
+
+apipie-rails
+--
+
+https://github.com/Apipie/apipie-rails
+
+Gem pour générer une api doc
