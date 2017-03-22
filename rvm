@@ -1,9 +1,0 @@
-Problème de certificat ssl
-
-ruby -ropenssl -e 'p OpenSSL::X509::DEFAULT_CERT_FILE' 
-
-that outputs 
-"/usr/local/etc/openssl/cert.pem"
-
-
-mv /usr/local/etc/openssl/cert.pem /usr/local/etc/openssl/cert.pem.old
