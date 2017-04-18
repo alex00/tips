@@ -44,6 +44,12 @@ Reset BDD
 ./bin/reset-database.sh 
 ```
 
+Update BDD schema
+
+```
+sf doctrine:schema:update --force
+```
+
 Create user
 
 ```
