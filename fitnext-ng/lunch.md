@@ -73,3 +73,7 @@ Create an
 ```
 ./bin/console fitnext:user:role:add --email=alex@test.fr --role=ROLE_ADMIN
 ```
+
+Générer news
+```sf app:news:fetch -vvv
+```
