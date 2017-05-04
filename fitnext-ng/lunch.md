@@ -75,5 +75,6 @@ Create an
 ```
 
 Générer news
-```sf app:news:fetch -vvv
+```
+sf app:news:fetch -vvv
 ```
