@@ -25,3 +25,9 @@ Commande psql
 * Afficher les utilisateurs
 
 `\du`
+
+Bug
+
+current transaction is aborted commands ignored until end of transaction block
+
+-> Update schema.rb
